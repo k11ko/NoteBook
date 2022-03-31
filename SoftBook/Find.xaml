@@ -1,0 +1,15 @@
+﻿<Window x:Class="SoftBook.Find"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoftBook"
+        mc:Ignorable="d"
+        Title="Find" Height="110" Width="300" Closing="Window_Closing">
+    <Grid>
+        <Label Content="Что:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="what" HorizontalAlignment="Left" Margin="47,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Найти" HorizontalAlignment="Left" Margin="172,12,0,0" VerticalAlignment="Top" Width="83" Click="Findtxt_Click"/>
+        <Button Content="Отмена" HorizontalAlignment="Left" Margin="172,37,0,0" VerticalAlignment="Top" Width="83" Click="Cancel1_Click"/>
+    </Grid>
+</Window>

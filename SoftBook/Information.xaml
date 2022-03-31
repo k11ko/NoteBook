@@ -1,0 +1,15 @@
+﻿<Window x:Class="SoftBook.Information"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoftBook"
+        mc:Ignorable="d"
+        Title="Блокнот: сведения" Height="146" Width="297.333" ResizeMode="NoResize" Icon="Image/Icon.png" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="75" VerticalAlignment="Top" Width="75" Source="Image/Icon.png"/>
+        <Label Content="Редактор текста для пользователей" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="205" Height="26"/>
+        <Label Content="Выполнил студент группы ИСП-31" HorizontalAlignment="Left" Margin="80,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.453,0.41"/>
+        <Label Content="Константинов Кирилл" HorizontalAlignment="Left" Margin="80,36,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

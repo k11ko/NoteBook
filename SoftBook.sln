@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoftBook", "SoftBook\SoftBook.csproj", "{2D48A822-9389-4BDE-93DD-C4E41FE36DAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D48A822-9389-4BDE-93DD-C4E41FE36DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D48A822-9389-4BDE-93DD-C4E41FE36DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D48A822-9389-4BDE-93DD-C4E41FE36DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D48A822-9389-4BDE-93DD-C4E41FE36DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {312E9979-6EC9-4940-B4C6-F29597A9AE97}
+	EndGlobalSection
+EndGlobal
